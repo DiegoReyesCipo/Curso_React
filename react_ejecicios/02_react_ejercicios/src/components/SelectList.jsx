@@ -25,10 +25,10 @@ const SelectList = ({title,url,handleChange}) => {
     <>
         <label htmlFor={id}>{label}</label>
         {loading && <Loader/>}
-        <select name={id} id={id} onChange={handleChange}>
+        {/* <select name={id} id={id} onChange={handleChange}>
             <option value="">Elige una {title}</option>
             {data && options.map((el)=> <option value={el}>{el}</option> )}
-        </select>
+        </select> */}
     </>
   ) 
 }
